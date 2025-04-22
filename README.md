@@ -98,15 +98,17 @@ timestamp := id.Timestamp(node) // time.Time
 nodeID := id.NodeID(node)      // int64
 sequence := id.Step(node)      // int64
 
-// Кодировки
-str := id.String()     // Десятичная строка
-b32 := id.Base32()     // Base32
-b58 := id.Base58()     // Base58
-b64 := id.Base64()     // URL-safe Base64
-bin := id.Base2()      // Бинарное представление
+fmt.Println("Timestamp:", timestamp)  // Десятичная строка
+fmt.Println("Node int64:", nodeID )   // Node
+fmt.Println("Sequence:", sequence)    // Sequence
 
-// Парсинг
-parsedID, err := mkey.ParseString("1234567890")
+// Кодировки
+fmt.Println("String:", id.String())  // Десятичная строка
+fmt.Println("Base32:", id.Base32())  // Base32
+fmt.Println("Base58:", id.Base58())  // Base58
+fmt.Println("Base64:", id.Base64())  // URL-safe Base64
+fmt.Println("Bin:", id.Base2())      // Бинарное представление
+
 ```
 
 ## Ограничения
