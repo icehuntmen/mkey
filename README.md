@@ -1,10 +1,8 @@
-# Snowflake ID Generator (Enhanced)
+# Mkey ID Generator (Enhanced)
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/yourusername/mkey.svg)](https://pkg.go.dev/github.com/yourusername/mkey)
-[![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/mkey)](https://goreportcard.com/report/github.com/yourusername/mkey)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/github.com/icehuntmen/mkey.svg)](https://pkg.go.dev/github.com/icehuntmen/mkey)
 
-Улучшенная реализация генератора Snowflake ID для распределенных систем с дополнительными функциями.
+Улучшенная реализация генератора Mkay ID для распределенных систем с дополнительными функциями.
 
 ## Особенности
 
